@@ -8,6 +8,10 @@ doSOTest() returns a p-value for testing a time series (dat) at lag (lag) for au
 The other functions included perform a variety of simulations and compare our doSOTest() function
 against the classic Durbin-Watson and Breusch-Godfrey tests.
 
+## quadArtSims.r 
+
+This file contains R code to reproduce the simulations and real data analysis in our article: https://arxiv.org/abs/2608.25918
+
 ## observed-solar-cycle-indices.json
 A time series of solar sunspots and intensity publicly available at https://www.swpc.noaa.gov/products/solar-cycle-progression
 but included here for convenience.
